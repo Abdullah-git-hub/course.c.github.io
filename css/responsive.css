@@ -12,13 +12,8 @@
     section.rightSec {
         width: 100vw;
     }
-    .topBtnWrap {
+    .leftWrap {
         width: 50%;
-    }
-    
-    .sideMenuWrap {
-        width: 50%;
-        background: white;
     }
 }
 @media (max-width: 770px){
@@ -69,7 +64,7 @@
     }
     
     .listTitle p {
-        font-size: 17px;
+        font-size: 20px;
     }
     
     .listTitleBtn {
@@ -81,16 +76,16 @@
         font-size: 10px;
     }
     
+    .listInner * {
+        font-size: 15px;
+    }
+    
     .courseTitle h3 {
         font-size: 16px;
     }
     
     .courseTitle i {
         font-size: 23px;
-    }
-    
-    .sideTxt {
-        /* width: 10%; */
     }
     
     .autoCmplt i {
@@ -113,7 +108,7 @@
     }
     
     .listTitle p {
-        font-size: 15px;
+        font-size: 17px;
     }
     
     section.leftSec {
@@ -124,11 +119,7 @@
         font-size: 15px;
     }
     
-    .topBtnWrap {
-        width: 60%;
-    }
-    
-    .sideMenuWrap {
+    .leftWrap {
         width: 60%;
     }
     .nextBtn p {
@@ -182,11 +173,7 @@
         top: 45px;
     }
     
-    .topBtnWrap {
-        width: 76%;
-    }
-    
-    .sideMenuWrap {
+    .leftWrap {
         width: 76%;
     }
     .nextBtn p {
