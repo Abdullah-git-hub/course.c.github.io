@@ -148,3 +148,22 @@ topRightBtn.addEventListener('click', ()=>{
     topRightBtn.classList.add("topBtnSelected");
     topLeftBtn.classList.remove("topBtnSelected");
 })
+
+// changing iframes
+
+var vdoIframe = document.getElementById("vdoIframe");
+var vdoPlayerDiv = document.getElementsByClassName("vdoPlayer");
+
+for(k = 0; k < vdoPlayerDiv.length; k++){
+    vdoPlayerDiv[k].addEventListener("click", (e)=>{
+        var elmnt = e.target;
+        var link = elmnt.getAttribute("data-link");
+        vdoIframe.setAttribute("src", link)
+    });
+}
+
+// for(let i = 0; i < vdoPlayerDiv; i++){
+//     vdoPlayerDiv[i].addEventListener("click", ()=>{
+        
+//     })
+// }
