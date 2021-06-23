@@ -8,16 +8,22 @@
 }
 
 body {
+    /* background: gray; */
     display: grid;
     grid-template-columns: 26% auto;
 }
 
 .leftSec {
+    /* background: white; */
     height: 100vh;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     transition: ease-out 0.4s;
 }
-
+.leftWrap {
+    overflow-y: scroll;
+    height: 100vh;
+    background: white;
+}
 .rightSec {
     height: 100vh;
     overflow: auto;
@@ -67,6 +73,7 @@ a.cmpltCrs {
 
 .listTitle p i {
     margin-left: 8px;
+    cursor: pointer;
 }
 
 .active {
@@ -105,7 +112,10 @@ a.cmpltCrs {
     overflow: hidden;
     transition: 1s;
 }
-
+.sideMenuWrap {
+    height: 100vh;
+}
+.sideMenuWrap {/* overflow-y: scroll; */}
 .infoDiv p {
     margin: 10px;
 }
@@ -118,7 +128,9 @@ a.cmpltCrs {
     overflow: hidden;
     /* display: none; */
 }
-
+.vdoPlayer {
+    cursor: pointer;
+}
 .listInnerDiv {
     padding: 8px;
     border-top: 2px solid #f3f3f3;
